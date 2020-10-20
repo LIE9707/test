@@ -27,7 +27,7 @@ secret = 'SEC31ae94c1e65c90cea577ce5b390412e1b5b6c3da7271e53f5fe1df52b6d89d05'
 xiaoding = DingtalkChatbot(webhook, secret=secret)		# 初始化机器人小丁
 
 #发送文字消息
- xiaoding.send_text(msg=f'{a}:\n  爬取了200条新闻，过滤20条', is_at_all=False)
+xiaoding.send_text(msg=f'{a}:\n  爬取了200条新闻，过滤20条', is_at_all=False)
 
 # # cards=[]
 # card1 = CardItem(title='中国儿女', url='http://baidu,com', pic_url="https://i.loli.net/2020/10/20/hHPAjzSfZCceYvX.jpg")
