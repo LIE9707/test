@@ -24,7 +24,7 @@ webhook = 'https://oapi.dingtalk.com/robot/send?access_token=81355aec2d36297d679
 xiaoding = DingtalkChatbot(webhook)		# 初始化机器人小丁
 
 #发送文字消息
-xiaoding.send_text(msg='通知：中国人民实现全面小康', is_at_all=True)
+xiaoding.send_text(msg='通知：不治将恐深', is_at_all=True)
 
 
 
