@@ -1,4 +1,4 @@
-import re
+# import re
 # pattern = re.compile('http://www.tujigu.com')
 # str = u'http://www.tujigu.com/a/155'
 # print(pattern.search(str))
