@@ -1,7 +1,28 @@
-# import re
+
+import re
 # pattern = re.compile('http://www.tujigu.com')
 # str = u'http://www.tujigu.com/a/155'
 # print(pattern.search(str))
+
+# str='https://www.guancha.cn/politics/2020_10_20_568687.shtml'
+
+# str='03:46 2020年10月21日'
+
+# #a = re.findall(r'\d{4}-\d{1,2}-\d{1,2}', str)[0]
+# a = 
+
+# #a.insert('-',4)
+# print(a)
+
+
+
+
+
+
+
+
+
+
 
 # str = u'http://www.tujigu.com/a/155/'
 
@@ -18,16 +39,16 @@
 
 
 # print(list(sources))
-from datetime import datetime
-print()
-a=datetime.today().strftime('%Y-%m-%d %H:%M')
-from dingtalkchatbot.chatbot import DingtalkChatbot,CardItem
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=81355aec2d36297d67978f3db1fe8d54819cb498bae833d0ad87dc4a6bb1237e'		# WebHook地址
-secret = 'SEC31ae94c1e65c90cea577ce5b390412e1b5b6c3da7271e53f5fe1df52b6d89d05'
-xiaoding = DingtalkChatbot(webhook, secret=secret)		# 初始化机器人小丁
+# from datetime import datetime
+# print()
+# a=datetime.today().strftime('%Y-%m-%d %H:%M')
+# from dingtalkchatbot.chatbot import DingtalkChatbot,CardItem
+# webhook = 'https://oapi.dingtalk.com/robot/send?access_token=81355aec2d36297d67978f3db1fe8d54819cb498bae833d0ad87dc4a6bb1237e'		# WebHook地址
+# secret = 'SEC31ae94c1e65c90cea577ce5b390412e1b5b6c3da7271e53f5fe1df52b6d89d05'
+# xiaoding = DingtalkChatbot(webhook, secret=secret)		# 初始化机器人小丁
 
-#发送文字消息
-xiaoding.send_text(msg=f'{a}:\n  爬取了200条新闻，过滤20条', is_at_all=False)
+# #发送文字消息
+# xiaoding.send_text(msg=f'{a}:\n  爬取了200条新闻，过滤20条', is_at_all=False)
 
 # # cards=[]
 # card1 = CardItem(title='中国儿女', url='http://baidu,com', pic_url="https://i.loli.net/2020/10/20/hHPAjzSfZCceYvX.jpg")
@@ -58,7 +79,7 @@ xiaoding.send_text(msg=f'{a}:\n  爬取了200条新闻，过滤20条', is_at_all
 # # Your Account SID from twilio.com/console
 # account_sid = "AC10c6cac5e4c8f9d5d2898a8aff8ead9a"
 # # Your Auth Token from twilio.com/console
-# auth_token  = "1b2cd2993596a3d23d6f3bc83253fd23"
+# auth_token  = "4a07ce3cf13b285bf6ed35887c0e46b7"
 
 # client = Client(account_sid, auth_token)
 
